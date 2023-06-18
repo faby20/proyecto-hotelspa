@@ -1,0 +1,166 @@
+header {
+  background-color: #f6f6f6;
+  padding: 0.5rem 1rem;
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 50px;
+  z-index: 9999;
+  list-style: none;
+  }
+
+header nav {
+  list-style: none;
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+}
+
+header a {
+  text-decoration: none;
+  padding: 10px;
+  color: #6b8eae;
+}
+
+header a:hover {
+  color: #aaccb3;
+  font-weight: bold;
+}
+
+body {
+  background: url(../img/fondo\ turnos.jpg) no-repeat fixed center;
+  background-size: cover;
+}
+
+main {
+  max-width: 400px;
+  margin: 10px auto;
+  padding: 40px;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin-bottom: 80px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: rgba(76, 224, 167, 0.745);
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+label {
+  color: rgba(76, 224, 167, 0.745);
+  font-weight: bold;
+}
+
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid rgba(76, 224, 167, 0.745);
+  margin-bottom: 10px;
+}
+
+button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: rgba(76, 224, 167, 0.745);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: rgba(76, 224, 167, 0.9);
+}
+
+footer {
+  text-align: center;
+  color: rgba(76, 224, 167, 0.745);
+  font-size: 12px;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 3px;
+  margin: 5px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
+}
+
+footer a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.8);
+  margin: 5px;
+}
+
+footer a:hover {
+  color: #fff;
+  font-weight: bold;
+}
+
+#footer_info {
+  min-height: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#footer_info section {
+  margin: 0 10px;
+}
+
+#footer_info h2 {
+  font-size: 20px;
+}
+
+#copyright_section {
+  text-align: center;
+  padding: 0.5rem;
+  margin-bottom: 0;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.fa-instagram {
+  font-size: 30px;
+}
+
+.fa-facebook {
+  font-size: 20px;
+}
+
+.fa-youtube {
+  font-size: 18px;
+}
+.social-icons {
+  display: flex;
+  align-items: center;
+}
+
+.social-icons a {
+  margin-right: 5px;
+}
+
+@media screen and (min-width: 768px) {
+
+}
+
+@media screen and (min-width: 481px) and (max-width: 767px) {
+
+}
+
+@media screen and (max-width: 480px) {
+  header{
+    flex-direction:column;
+
+  }
+}
